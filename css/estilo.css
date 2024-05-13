@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(214, 214, 151);
+    background: url(../img/fondo.png);
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  header {
+    background-color: #fafafa;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    color: rgb(134, 40, 76);
+  }
+  
+  h2,
+  h3,
+  h4 {
+    font-family: "Nunito", sans-serif;
+    color: rgb(134, 40, 76);
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+  
+  h4 {
+    font-size: 1rem;
+  }
+  
+  .tarjetas {
+    background-color: beige;
+    border-color: rgb(134, 40, 76);
+    border-width: 3px;
+  }
+  
+  .btnCard {
+    background-color: rgb(134, 40, 76);
+    color: #fafafa;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .btnCard:hover {
+    background-color: #fafafa;
+    color: rgb(134, 40, 76);
+  }
+  
+  .imgProd {
+    height: 75%;
+    object-fit: contain;
+  }
+  
+  footer {
+    text-align: end;
+  }
+  
+  .carrito {
+    width: 40%;
+    margin: 50px;
+  }
+  
+  .finalizarCompra {
+    text-align: center;
+  }
+  
+  .tablaCompra {
+    display: flex;
+    text-align: end;
+  }
+  
+  .cotizacionDolar {
+    padding-top: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: right;
+  }
